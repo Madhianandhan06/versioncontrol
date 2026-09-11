@@ -39,6 +39,7 @@ const App = () => {
           <h4>This is Modal</h4>
         </div>
       }
+      <button onClick={() => setIsOpen(m => !m)}>{`NewModal ${isOpen ? "ON" : 'OFF'}`}</button>
 
     </div>
   )
