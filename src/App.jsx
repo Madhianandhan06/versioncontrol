@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const App = () => {
 
   const [count, setCount] = useState(1)
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div>
       <button onClick={() => setCount(c => c-1)}>-</button>
@@ -22,11 +23,23 @@ const App = () => {
           </div>
 
           <div>
-              <label htmlFor="">Enter Your Password:</label>
+              <label htmlFor="">Version B Password:</label>
+              <label htmlFor="">Version A Password:</label>
               <input type="text" />
           </div>
+
+          <h1>Version A</h1>
         </form>
       </div>
+
+      <button onClick={() => setIsOpen(m => !m)}>{`Modal ${isOpen ? "ON" : 'OFF'}`}</button>
+      
+      {isOpen && 
+        <div>
+          <h4>This is Modal</h4>
+        </div>
+      }
+
     </div>
   )
 }
