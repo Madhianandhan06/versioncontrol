@@ -32,7 +32,7 @@ const App = () => {
         </form>
       </div>
 
-      <button onClick={() => setIsOpen(m => !m)}>{`Modal ${isOpen ? "ON" : 'OFF'}`}</button>
+      <button onClick={() => setIsOpen(m => !m)}>{`Modal ${isOpen ? "OFF" : 'ON'}`}</button>
       
       {isOpen && 
         <div>
