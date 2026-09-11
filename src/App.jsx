@@ -22,6 +22,7 @@ const App = () => {
           </div>
 
           <div>
+              <label htmlFor="">Version B Password:</label>
               <label htmlFor="">Version A Password:</label>
               <input type="text" />
           </div>
