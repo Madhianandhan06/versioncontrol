@@ -25,6 +25,8 @@ const App = () => {
               <label htmlFor="">Enter Your Password:</label>
               <input type="text" />
           </div>
+
+          <h1>Version A</h1>
         </form>
       </div>
     </div>
