@@ -13,7 +13,7 @@ const App = () => {
       <div>
         <form action="">
           <div>
-              <label htmlFor="">Enter Your FullName:</label>
+              <label htmlFor="">Enter Your Name:</label>
               <input type="text" />
           </div>
 
