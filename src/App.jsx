@@ -21,6 +21,7 @@ const App = () => {
               <label htmlFor="">Enter Your Email:</label>
               <input type="text" />
           </div>
+          
 
           <div>
               <label htmlFor="">Version B Password:</label>
