@@ -27,7 +27,7 @@ const App = () => {
               <input type="text" />
           </div>
 
-          <h1>Version A</h1>
+          <h1>Version C</h1>
         </form>
       </div>
 
